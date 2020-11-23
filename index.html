@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="scripts" href="scripts.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <title>Claire C. Bohlen</title>
+</head>
+<body>
+  <div id="vanta" class="container-fluid">  <!--Vanta Div-->
+    <div id="home" class="block navbar-fixed ">   <!--Pushpin Div-->
+      <section id="home-page">
+        <div class="row" id="nav-row">
+          <nav class="pushpin-demo-nav transparent z-depth-0" data-target="home">
+              <div class="nav-wrapper transparent">
+                <div class="container">
+                  
+                  <a href="#" class="brand-logo right">
+                   <img class="bear" alt="claire's logo" src="noun_Bear_2192492.svg"> </a> 
+                  
+                  <ul id="nav-mobile" class="left hide-on-med-and-down nav-but">
+                    <!-- <li><a href="#" data-activates="mobile-demo" class="button-collapse show-on-small"><i class="material-icons">menu</i></a></li> --> 
+                    <li><a href="#home" class="about">Home.</a></li>
+                    <li><a href="#about" class="about">About.</a></li>
+                    <li><a href="#connect" class="connect">Connect.</a></li>
+                    <li><a href="CB.pdf" class="connect">Resume.</a></li>
+                 </ul>
+               </div>
+              </div>
+            </nav>
+          </div>
+          <div class="row" id="intro">
+            <div class="col s12 m2">
+            <p class="intro-text"></p>
+          </div>
+          </div>
+          <div class="row" id="intro">
+            <div class="col s12">
+            <p class="intro-text">Hello!</p>
+          </div>
+          </div>
+          <div class="row" id="intro">
+            <div class="col s12 ">
+              <p class="intro-text">I'm Claire. I like to build things for the web.</p>
+            
+          </div>
+          </div>
+          <div class="row" id="cards">
+              <div class="col s12 m2"></div>
+              <!-- Card Structure -->
+              <div class="col s12 m2 hover">
+                <div class="card-content card-color waves-effect waves-light btn modal-trigger hover-class" href="#modal1"  id="hover" style="height: 200px; width:200px; background-color: #0adfb3; border-radius: 25px;">
+                    <p>
+                    
+                     <img class="img-bell" alt="hotel bell icon" src="bell.svg">   
+                  
+                    </p>
+                    <!-- <a class="waves-effect waves-light btn modal-trigger move-button" href="#modal1">Modal</a> -->
+                  </div>
+              </div>
+                <!-- Modal Structure -->
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4>Hotel Property Management System</h4>
+                  <p>A bunch of text</p>
+                  
+                </div>
+                <div class="modal-footer">
+                  <!-- Modal Footer Links -->
+                  <a href="https://github.com/ryanwit/hotel_motel" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
+                  <a href="https://hotelmotel.herokuapp.com/" class="modal-close waves-effect waves-green btn-flat">Deployed</a>
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">X</a>
+                </div>
+              </div>
+
+              <!-- Card Structure -->
+              <div class="col s12 m2">
+                <div class="card-content card-color waves-effect waves-light btn modal-trigger hover-class" href="#modal2" style="height: 200px; width:200px; background-color: #0adfb3; border-radius: 25px;">
+                    <p>
+
+                      <img class="img-bell" alt="hotel bell icon" src="park.svg"> 
+
+
+                    </p>
+                    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+                  </div>
+              </div>
+                <!-- Modal Structure -->
+              <div id="modal2" class="modal">
+                <div class="modal-content">
+                  <h4>National Parks API</h4>
+                  <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                  <!-- Modal Footer Links -->
+                  <a href="https://github.com/tmessall/dubootcampProjectOne" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
+                  <a href="https://tmessall.github.io/dubootcampProjectOne/" class="modal-close waves-effect waves-green btn-flat">Deployed</a>
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">X</a>
+                </div>
+              </div>
+              <!-- Card Structure -->
+              <div class="col s12 m2">
+                <div class="card-content card-color waves-effect waves-light btn modal-trigger hover-class" href="#modal3" style="height: 200px; width:200px; background-color: #0adfb3; border-radius: 25px;">
+                    <p>
+                      <img class="img-bell" alt="hotel bell icon" src="fitness.svg"> 
+                    </p>
+                    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+                  </div>
+              </div>
+                <!-- Modal Structure -->
+              <div id="modal3" class="modal">
+                <div class="modal-content">
+                  <h4>Fitness Tracker</h4>
+                  <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                  <!-- Modal Footer Links -->
+                  <a href="https://github.com/ClaireBohlen/fitnessTracker" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
+                  <a href="https://fierce-spire-72446.herokuapp.com/ " class="modal-close waves-effect waves-green btn-flat">Deployed</a>
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">X</a>
+                </div>
+              </div>
+              <!-- Card Structure -->
+              <div class="col s12 m2">
+                <div class="card-content card-color waves-effect waves-light btn modal-trigger hover-class" href="#modal4" style="height: 200px; width:200px; background-color: #0adfb3; border-radius: 25px;">
+                    <p>
+                      <img class="img-bell" alt="hotel bell icon" src="read.svg"> 
+                    </p>
+                    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+                  </div>
+              </div>
+                <!-- Modal Structure -->
+              <div id="modal4" class="modal">
+                <div class="modal-content">
+                  <h4>Read Me Generator</h4>
+                  <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                  <!-- Modal Footer Links -->
+                  <a href="https://github.com/ClaireBohlen/readMeGenerator" class="modal-close waves-effect waves-green btn-flat">GitHub</a>
+                  <a href="https://hotelmotel.herokuapp.com/" class="modal-close waves-effect waves-green btn-flat">Deployed</a>
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">X</a>
+                </div>
+              </div>
+              
+          </div>
+      </section>
+    </div>
+
+        <!-- About Section -->
+        <div id="about" class="block">   <!--Pushpin Div-->
+          <section id="about">
+            <div class ="row background-color-about"></div>
+            <div class="col s12 aboutme-col">
+              <h1>About me</h1>
+              <p>My name is Claire and I live in Denver, Colorado. I’m currently enrolled in a coding bootcamp and I recently graduated from the University of Colorado with a bachelor’s degree in Business & Music. I love to play the piano and hike in the Rocky Mountains.</p>
+            </div>
+
+            <div class="row">
+              <!-- <div class="col s1"></div> -->
+              <div class="col s3 about-col-front">
+                <h1> Front End</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit recusandae nobis. Non eligendi, eveniet quam omnis dolores sequi obcaecati qui reiciendis adipisci? Expedita doloremque quam nesciunt incidunt vitae aspernatur.</p>
+                <!-- Promo Content 1 goes here -->
+              </div>
+              <div class="col s3 about-col-back">
+                <h1>Back End </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dignissimos vero modi, aspernatur mollitia debitis accusamus iste? Reiciendis, unde nam, repudiandae exercitationem est distinctio illum tenetur nostrum molestias optio inventore?</p>
+              </div>
+              <div class="col s3 about-col-desgin">
+                <h1> Design</h1>>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolorum nulla ea placeat assumenda ut. Necessitatibus inventore fugit illo suscipit tenetur tempore commodi quis. Quas, quis? Maiores deserunt et eum!</p>
+              </div>
+              <!-- <div class="col s2"></div> -->
+        
+            </div>
+              
+           </section>
+        </div> 
+
+        <!-- Connect Section -->
+        <div id="connect" class="block">   <!--Pushpin Div-->
+          <section id="home">
+              
+                  <!--FOOTER-->
+                  <footer class="page-footer footer" style="
+                  background-color:#42ffba;
+              ">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col l6 s12">
+                          <h5 class="white-text"></h5>
+                          <p class="grey-text text-lighten-4"></p>
+                           <ul>
+                            <a href="https://github.com/ClaireBohlen">
+                            <img class="github" alt="gitHub" src="Github.svg"> </a>
+                            <a href ="https://www.linkedin.com/in/claire-bohlen-63a4b5119/">
+                            <img class="linkedIn" alt="Linked In Link" src="LI.svg"></a>
+                          </ul>
+                          
+                        </div>
+                        
+                      </div>
+                    </div>
+                    
+                  </footer>
+           </section>  
+          </div> 
+
+    </div>
+ </div>
+
+
+
+
+
+          
+
+
+
+
+
+   
+
+    
+</body>
+    <script>
+    VANTA.NET({
+      el: "#vanta",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x3fffaf,
+      maxDistance: 39.00,
+      spacing: 19.00
+    })
+    </script>
+</html>
