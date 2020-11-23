@@ -61,7 +61,8 @@ a, .about{
 .intro-text{
     color:#42ffba;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bold;
 
 }
       
@@ -182,8 +183,12 @@ a {
     font-size:30px;
 }
 .about-col, p{
-    font-size:10px;
+    font-size:20px;
 
+}
+.enlarge{
+    font-size:30px;
+    font-weight:bold;
 }
 .aboutme-col{
     color: #0ADFB3;
@@ -219,5 +224,10 @@ a {
     float:right;
     padding-left: 60px;
 
+
+}
+
+.contact-icons{
+    align-content: center;
 
 }
