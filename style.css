@@ -219,6 +219,15 @@ a {
 .about-col-front{
     margin-left: 30px;
 }
+@media only screen and (max-width: 479px){
+    .about-col-front { width: 90%; }
+}
+@media only screen and (max-width: 479px){
+    .about-col-back { width: 90%; }
+}
+@media only screen and (max-width: 479px){
+    .about-col-design { width: 90%; }
+}
 
 .about-col-design{
     float:right;
